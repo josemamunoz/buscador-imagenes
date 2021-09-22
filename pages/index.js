@@ -46,7 +46,7 @@ export default function Home() {
 
       <main className="container">
         <div className="container mt-5 col-4">
-          <form className="container" onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit}>
             <div className="row">
               <input 
               className="form-control col" 
